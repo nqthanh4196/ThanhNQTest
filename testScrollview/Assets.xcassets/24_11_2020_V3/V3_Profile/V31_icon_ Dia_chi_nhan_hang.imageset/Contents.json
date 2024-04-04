@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "V31_icon_ Dia_chi_nhan_hang.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "V31_icon_ Dia_chi_nhan_hang@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "V31_icon_ Dia_chi_nhan_hang@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "V4_BrandsHeaderBackgroundPinkTransparrent.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "V4_BrandsHeaderBackgroundPinkTransparrent@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "V4_BrandsHeaderBackgroundPinkTransparrent@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

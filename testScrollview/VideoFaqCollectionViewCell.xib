@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeue-Medium.ttf">
+            <string>HelveticaNeue-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="VideoFaqCollectionViewCell" customModule="Con_Cung" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="408" height="416"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="408" height="416"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="newsBG" translatesAutoresizingMaskIntoConstraints="NO" id="x2o-lj-CR0">
+                        <rect key="frame" x="0.0" y="0.0" width="408" height="416"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="x2o-lj-CR0" secondAttribute="height" multiplier="408:416" id="bCg-rS-5d7"/>
+                        </constraints>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Si3-0i-Wk7">
+                        <rect key="frame" x="0.0" y="0.0" width="408" height="259"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="Si3-0i-Wk7" secondAttribute="height" multiplier="408:259" id="taH-jq-yif"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Men vi sinh của Pháp Pediakid và men vi sinh Hàn Quốc Synteract: Loại nào tốt hơn?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EKf-ZC-YBB">
+                        <rect key="frame" x="10" y="271" width="388" height="45"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="45" id="uIj-Qg-i3o"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="18"/>
+                        <color key="textColor" name="CC_Title_Gray_App_4"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jD2-A5-dpn">
+                        <rect key="frame" x="10" y="324" width="388" height="54"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="54" id="5b6-Lx-jfe"/>
+                        </constraints>
+                        <string key="text">Men vi sinh của Pháp Pediakid và men vi sinh Hàn Quốc Synteract đều là 2 sản phẩm được đánh giá cao về công dụng giúp cải thiện hệ tiêu hóa của trẻ. Song, điều này lại khiến nhiều ba mẹ phân vân không biết nên chọn loại nào cho con. Để giúp ba mẹ dễ dàng đưa ra lựa chọn, Con Cưng đã tổng hợp đầy đủ thông tin so sánh 2 loại men vi sinh trên. Mời ba mẹ theo dõi nhé!  
+</string>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TLz-xX-2R4">
+                        <rect key="frame" x="10" y="390" width="388" height="16"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="5pl-hs-HP3">
+                                <rect key="frame" x="0.0" y="0.0" width="183" height="16"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r44-ah-Tyb">
+                                        <rect key="frame" x="0.0" y="0.0" width="45" height="16"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iconEye" translatesAutoresizingMaskIntoConstraints="NO" id="Qzz-Nk-Utz">
+                                                <rect key="frame" x="0.0" y="0.0" width="16" height="16"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="16" id="Rtz-oN-eQf"/>
+                                                    <constraint firstAttribute="width" constant="16" id="kWq-T3-ZEu"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="kMZ-T6-78u">
+                                                <rect key="frame" x="21" y="-0.33333333333331439" width="24" height="17"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="14"/>
+                                                <color key="textColor" name="CC_Text_Gray_App_4"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="kMZ-T6-78u" secondAttribute="trailing" id="6B5-cQ-74f"/>
+                                            <constraint firstItem="Qzz-Nk-Utz" firstAttribute="leading" secondItem="r44-ah-Tyb" secondAttribute="leading" id="6PT-8Q-nc0"/>
+                                            <constraint firstItem="kMZ-T6-78u" firstAttribute="centerY" secondItem="r44-ah-Tyb" secondAttribute="centerY" id="LNQ-dm-vL4"/>
+                                            <constraint firstItem="kMZ-T6-78u" firstAttribute="leading" secondItem="Qzz-Nk-Utz" secondAttribute="trailing" constant="5" id="LYh-HT-RWn"/>
+                                            <constraint firstItem="Qzz-Nk-Utz" firstAttribute="centerY" secondItem="r44-ah-Tyb" secondAttribute="centerY" id="RvG-p9-ecr"/>
+                                            <constraint firstAttribute="width" constant="45" id="rMP-s9-tmL"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9AM-tw-rgm">
+                                        <rect key="frame" x="69" y="0.0" width="45" height="16"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="V4_Product_Love" translatesAutoresizingMaskIntoConstraints="NO" id="csJ-z2-75u">
+                                                <rect key="frame" x="0.0" y="0.0" width="16" height="16"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="16" id="8OI-Pf-xhG"/>
+                                                    <constraint firstAttribute="width" constant="16" id="Rte-Aa-mtE"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="j3b-nO-3zj">
+                                                <rect key="frame" x="21" y="-0.33333333333331439" width="24" height="17"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="14"/>
+                                                <color key="textColor" name="CC_Text_Gray_App_4"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="j3b-nO-3zj" firstAttribute="leading" secondItem="csJ-z2-75u" secondAttribute="trailing" constant="5" id="QlQ-GS-5nc"/>
+                                            <constraint firstAttribute="trailing" secondItem="j3b-nO-3zj" secondAttribute="trailing" id="Ty8-Qx-9Hz"/>
+                                            <constraint firstAttribute="width" constant="45" id="WXT-I9-gZm"/>
+                                            <constraint firstItem="csJ-z2-75u" firstAttribute="centerY" secondItem="9AM-tw-rgm" secondAttribute="centerY" id="cN4-uH-rph"/>
+                                            <constraint firstItem="j3b-nO-3zj" firstAttribute="centerY" secondItem="9AM-tw-rgm" secondAttribute="centerY" id="nOH-nB-FU4"/>
+                                            <constraint firstItem="csJ-z2-75u" firstAttribute="leading" secondItem="9AM-tw-rgm" secondAttribute="leading" id="x07-TP-Ipa"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mL3-hd-sUl">
+                                        <rect key="frame" x="138" y="0.0" width="45" height="16"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="V4_Share_Icon" translatesAutoresizingMaskIntoConstraints="NO" id="0lI-oV-L4e">
+                                                <rect key="frame" x="0.0" y="0.0" width="16" height="16"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="16" id="fwx-0l-UHa"/>
+                                                    <constraint firstAttribute="width" constant="16" id="vxJ-af-6Jg"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="XjW-7N-Yw6">
+                                                <rect key="frame" x="21" y="-0.33333333333331439" width="24" height="17"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="14"/>
+                                                <color key="textColor" name="CC_Text_Gray_App_4"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="45" id="7Un-u7-fQ9"/>
+                                            <constraint firstAttribute="trailing" secondItem="XjW-7N-Yw6" secondAttribute="trailing" id="LMj-pg-Lbz"/>
+                                            <constraint firstItem="0lI-oV-L4e" firstAttribute="centerY" secondItem="mL3-hd-sUl" secondAttribute="centerY" id="RLq-Pd-von"/>
+                                            <constraint firstItem="0lI-oV-L4e" firstAttribute="leading" secondItem="mL3-hd-sUl" secondAttribute="leading" id="Tn4-Cr-FpN"/>
+                                            <constraint firstItem="XjW-7N-Yw6" firstAttribute="leading" secondItem="0lI-oV-L4e" secondAttribute="trailing" constant="5" id="g8E-Ig-7IZ"/>
+                                            <constraint firstItem="XjW-7N-Yw6" firstAttribute="centerY" secondItem="mL3-hd-sUl" secondAttribute="centerY" id="rUf-Eu-Fv6"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20/03/2023 02:27" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NDm-Rs-Gl3">
+                                <rect key="frame" x="267.33333333333331" y="-0.33333333333331439" width="110.66666666666669" height="16.666666666666668"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Italic" family="Helvetica Neue" pointSize="14"/>
+                                <color key="textColor" name="CC_Text_Gray_App_4"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="5pl-hs-HP3" firstAttribute="leading" secondItem="TLz-xX-2R4" secondAttribute="leading" id="3Fy-JA-gfN"/>
+                            <constraint firstAttribute="trailing" secondItem="NDm-Rs-Gl3" secondAttribute="trailing" constant="10" id="QWp-oj-NI0"/>
+                            <constraint firstItem="5pl-hs-HP3" firstAttribute="top" secondItem="TLz-xX-2R4" secondAttribute="top" id="ZWB-2e-LcG"/>
+                            <constraint firstAttribute="bottom" secondItem="5pl-hs-HP3" secondAttribute="bottom" id="fsA-bW-ikJ"/>
+                            <constraint firstItem="NDm-Rs-Gl3" firstAttribute="centerY" secondItem="TLz-xX-2R4" secondAttribute="centerY" id="ztN-z9-7fX"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="TLz-xX-2R4" firstAttribute="leading" secondItem="EKf-ZC-YBB" secondAttribute="leading" id="354-vk-ta8"/>
+                <constraint firstItem="EKf-ZC-YBB" firstAttribute="top" secondItem="Si3-0i-Wk7" secondAttribute="bottom" constant="12" id="6Yp-ZK-YKL"/>
+                <constraint firstItem="jD2-A5-dpn" firstAttribute="leading" secondItem="EKf-ZC-YBB" secondAttribute="leading" id="8vl-EV-fko"/>
+                <constraint firstItem="TLz-xX-2R4" firstAttribute="trailing" secondItem="EKf-ZC-YBB" secondAttribute="trailing" id="Ajw-go-O31"/>
+                <constraint firstItem="jD2-A5-dpn" firstAttribute="top" secondItem="EKf-ZC-YBB" secondAttribute="bottom" constant="8" id="FH0-4d-y3H"/>
+                <constraint firstAttribute="trailing" secondItem="x2o-lj-CR0" secondAttribute="trailing" id="Gn7-qg-G1d"/>
+                <constraint firstAttribute="bottom" secondItem="x2o-lj-CR0" secondAttribute="bottom" id="HeW-6k-5BY"/>
+                <constraint firstItem="Si3-0i-Wk7" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="NZy-DI-SiB"/>
+                <constraint firstAttribute="trailing" secondItem="Si3-0i-Wk7" secondAttribute="trailing" id="S0L-1E-eWS"/>
+                <constraint firstItem="jD2-A5-dpn" firstAttribute="trailing" secondItem="EKf-ZC-YBB" secondAttribute="trailing" id="TCT-p2-1QE"/>
+                <constraint firstAttribute="trailing" secondItem="EKf-ZC-YBB" secondAttribute="trailing" constant="10" id="ctJ-d3-ubr"/>
+                <constraint firstItem="x2o-lj-CR0" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="gD6-Vb-w9q"/>
+                <constraint firstAttribute="bottom" secondItem="TLz-xX-2R4" secondAttribute="bottom" constant="10" id="l5m-Tb-ujR"/>
+                <constraint firstItem="EKf-ZC-YBB" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="mSD-Ad-uhi"/>
+                <constraint firstItem="TLz-xX-2R4" firstAttribute="top" secondItem="jD2-A5-dpn" secondAttribute="bottom" constant="12" id="maL-1V-kBF"/>
+                <constraint firstItem="Si3-0i-Wk7" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="uST-Bf-iw5"/>
+            </constraints>
+            <size key="customSize" width="408" height="471"/>
+            <point key="canvasLocation" x="204.58015267175571" y="134.85915492957747"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="V4_Product_Love" width="30" height="30"/>
+        <image name="V4_Share_Icon" width="18" height="18"/>
+        <image name="iconEye" width="16" height="16.333333969116211"/>
+        <image name="newsBG" width="412.33334350585938" height="420.66665649414062"/>
+        <namedColor name="CC_Text_Gray_App_4">
+            <color red="0.40392156862745099" green="0.40784313725490196" blue="0.42352941176470588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="CC_Title_Gray_App_4">
+            <color red="0.25098039215686274" green="0.25098039215686274" blue="0.25098039215686274" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

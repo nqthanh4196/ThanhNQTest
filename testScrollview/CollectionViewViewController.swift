@@ -84,7 +84,7 @@ class VideoDiscoveryDataSource: NSObject, UICollectionViewDataSource {
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueCell(ofType: VideoCollectionViewCell.self, indexPath: indexPath)
+        let cell = collectionView.dequeueCell(ofType: VideoFaqCollectionViewCell.self, indexPath: indexPath)
         return cell
     }
     
@@ -92,15 +92,15 @@ class VideoDiscoveryDataSource: NSObject, UICollectionViewDataSource {
     init(collectionView: UICollectionView) {
         super.init()
         collectionView.delegate = self
-        collectionView.registerCells(identifies: [VideoCollectionViewCell.className])
+        collectionView.registerCells(identifies: [VideoFaqCollectionViewCell.className])
     }
 }
 
 extension VideoDiscoveryDataSource: UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         let collectionViewWidth = collectionView.bounds.width
-           let itemWidth = (collectionViewWidth - 16) / 2
-           let itemHeight = (itemWidth * 319) / 199
+           let itemWidth = (collectionViewWidth - 20)
+        let itemHeight: CGFloat = 416
         return CGSize(width: itemWidth , height: itemHeight)
     }
     
@@ -111,7 +111,7 @@ extension VideoDiscoveryDataSource: UICollectionViewDelegateFlowLayout {
         return 0
     }
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
-        return UIEdgeInsets(top: 15, left: 5, bottom: 0, right: 5)
+        return UIEdgeInsets(top: 15, left: 0, bottom: 0, right: 0)
     }
     
 }

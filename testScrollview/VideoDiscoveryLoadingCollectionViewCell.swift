@@ -10,6 +10,7 @@ import UIKit
 
 class VideoDiscoveryLoadingCollectionViewCell: UICollectionViewCell {
 
+    @IBOutlet weak var imageBg: UIImageView!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

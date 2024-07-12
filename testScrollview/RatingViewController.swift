@@ -130,7 +130,14 @@ class RatingViewController: UIViewController, UITableViewDataSource, UITableView
         ]
         
         dataSucees = [
-            RatingViewModel(contentString: " ", content: .successRow),
+            RatingViewModel(contentString: "gjkghjghjk ", content: .successRow),
+            RatingViewModel(contentString: "ghjkghjghjghj ", content: .ratingStar(RatingStarViewModel.init())),
+              RatingViewModel(contentString: "ghjkghjghjghj ", content: .ratingStar(RatingStarViewModel.init())),
+            RatingViewModel(contentString: "ghjkghjghjghj ", content: .ratingStar(RatingStarViewModel.init())),
+            RatingViewModel(contentString: "ghjkghjghjghj ", content: .ratingStar(RatingStarViewModel.init())),
+            RatingViewModel(contentString: "ghjkghjghjghj ", content: .ratingStar(RatingStarViewModel.init())),
+            RatingViewModel(contentString: "ghjkghjghjghj ", content: .ratingStar(RatingStarViewModel.init())),
+            
             RatingViewModel(contentString: "Đánh giá thật hay, nhận ngay Voucher 50K", content: .productInfo(ProductViewModel.init())),
         ]
         

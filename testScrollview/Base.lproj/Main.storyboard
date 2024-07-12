@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="C4w-WD-ud1">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
@@ -17,9 +17,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="eNs-Ry-ur8">
-                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="eNs-Ry-ur8">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                                 <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="88" id="cje-ea-jFX"/>
+                                </constraints>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="pF0-HC-IVt">
                                     <size key="itemSize" width="128" height="128"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -28,14 +31,19 @@
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="wcW-wy-rwF">
-                                        <rect key="frame" x="0.0" y="0.0" width="127.99999999999997" height="128"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="AP8-WR-o4s">
-                                            <rect key="frame" x="0.0" y="0.0" width="127.99999999999997" height="128"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </collectionViewCellContentView>
                                     </collectionViewCell>
                                 </cells>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="cje-ea-jFX"/>
+                                    </mask>
+                                </variation>
                             </collectionView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Bd-zf-nlo"/>
@@ -43,9 +51,21 @@
                         <constraints>
                             <constraint firstItem="6Bd-zf-nlo" firstAttribute="bottom" secondItem="eNs-Ry-ur8" secondAttribute="bottom" id="0YE-A2-yWm"/>
                             <constraint firstItem="6Bd-zf-nlo" firstAttribute="trailing" secondItem="eNs-Ry-ur8" secondAttribute="trailing" id="CX5-sa-BON"/>
+                            <constraint firstItem="eNs-Ry-ur8" firstAttribute="centerY" secondItem="6Bd-zf-nlo" secondAttribute="centerY" id="CuJ-8v-dZ4"/>
+                            <constraint firstAttribute="bottom" secondItem="eNs-Ry-ur8" secondAttribute="bottom" id="FGI-vd-vb3"/>
                             <constraint firstItem="eNs-Ry-ur8" firstAttribute="leading" secondItem="6Bd-zf-nlo" secondAttribute="leading" id="Lzf-O2-maM"/>
+                            <constraint firstItem="eNs-Ry-ur8" firstAttribute="width" secondItem="nO1-6O-cSM" secondAttribute="width" id="mEN-b7-W16"/>
+                            <constraint firstItem="eNs-Ry-ur8" firstAttribute="top" secondItem="nO1-6O-cSM" secondAttribute="top" id="nPl-hh-VmU"/>
                             <constraint firstItem="eNs-Ry-ur8" firstAttribute="top" secondItem="6Bd-zf-nlo" secondAttribute="top" id="q6i-Mm-WNf"/>
+                            <constraint firstItem="eNs-Ry-ur8" firstAttribute="height" secondItem="nO1-6O-cSM" secondAttribute="height" id="yiV-5J-Uew"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="CuJ-8v-dZ4"/>
+                                <exclude reference="q6i-Mm-WNf"/>
+                                <exclude reference="0YE-A2-yWm"/>
+                            </mask>
+                        </variation>
                     </view>
                     <connections>
                         <outlet property="collectionView" destination="eNs-Ry-ur8" id="DOj-re-8df"/>

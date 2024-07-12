@@ -10,9 +10,9 @@ import UIKit
 
 class VideoFaqCollectionViewCell: UICollectionViewCell {
 
-    @IBOutlet weak var imageBorderBG: UIImageView! {
+    @IBOutlet weak var imageBorderBG: UIView! {
         didSet {
-            imageBorderBG.roundTopCorners(radius: 100)
+            imageBorderBG.layer.cornerRadius = 10
         }
     }
     @IBOutlet weak var imageBackground: UIImageView! {

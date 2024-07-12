@@ -15,7 +15,10 @@ class ViewController2: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-          self.view.showIndicatorWithAutoHide(type: .success, message: "Đã thêm")
+        DispatchQueue.main.asyncAfter(deadline: .now() + 4) {
+            self.view.showIndicatorWithAutoHide(type: .success, message: "Đã thêm")
+        }
+        self.view.showIndicatorWithAutoHide(type: .loading, message: "Đang thêm")
      }
 }
 enum IndicatorType {
@@ -70,7 +73,7 @@ class CustomIndicatorView: UIView {
         
         // Add subviews to containerView
         containerView.addSubview(activityIndicatorView)
-        containerView.addSubview(tickLabel)
+        containerView.addSubview(tickLabel)  
         containerView.addSubview(messageLabel)
         
         // Layout constraints

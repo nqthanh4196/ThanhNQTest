@@ -36,6 +36,7 @@
 		2CD028D02B8707750043E0D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CD028CE2B8707750043E0D5 /* Main.storyboard */; };
 		2CD028D22B8707760043E0D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CD028D12B8707760043E0D5 /* Assets.xcassets */; };
 		2CD028D52B8707760043E0D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CD028D32B8707760043E0D5 /* LaunchScreen.storyboard */; };
+		2CF8EBDC2C918AF000DCFBF1 /* AdaptiveUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF8EBDB2C918AF000DCFBF1 /* AdaptiveUI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +71,7 @@
 		2CD028D12B8707760043E0D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CD028D42B8707760043E0D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2CD028D62B8707760043E0D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CF8EBDB2C918AF000DCFBF1 /* AdaptiveUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptiveUI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 				2C28F9012BC3923400DEA5B4 /* VideoShoppingCollectionViewCell.xib */,
 				2C28F9042BC3A2D400DEA5B4 /* ProductVideoShoppingCollectionViewCell.swift */,
 				2C28F9052BC3A2D400DEA5B4 /* ProductVideoShoppingCollectionViewCell.xib */,
+				2CF8EBDB2C918AF000DCFBF1 /* AdaptiveUI.swift */,
 			);
 			path = testScrollview;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CCFC1352BBE60E000C4CA10 /* VideoCollectionViewCell.swift in Sources */,
+				2CF8EBDC2C918AF000DCFBF1 /* AdaptiveUI.swift in Sources */,
 				2C232D702BB563A10070BEAE /* RatingSuccessTableViewCell.swift in Sources */,
 				2CB0193A2B906EA700E0A12F /* ViewController2.swift in Sources */,
 				2CD028CD2B8707750043E0D5 /* ViewController.swift in Sources */,

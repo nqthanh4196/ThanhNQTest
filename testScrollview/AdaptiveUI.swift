@@ -22,21 +22,42 @@ enum Tab: String, CaseIterable {
         }
     }
 }
+enum SideBarAction: String, CaseIterable {
+    case profile = "Profile"
+    case premium = "Premium"
+    case bookmark = "Bookmark"
+    case job = "Job"
+    case listTodo = "List To Do"
+    case spaces = "Spaces"
+    case makeMoney = "Make Money"
+    
+    var symbolImage: String {
+        switch self {
+        case .profile: return "person.crop.circle"
+        case .premium: return "star.circle"
+        case .bookmark: return "bookmark"
+        case .job: return "briefcase"
+        case .listTodo: return "checklist"
+        case .spaces: return "square.grid.3x3"
+        case .makeMoney: return "dollarsign.circle"
+        }
+    }
+}
 
-struct AdaptiveUI: View {
+struct SlideMenuView: View {
     @State private var tabSelect: Tab = .home
     @State private var offset: CGFloat = 0
     @State private var lastDragOffset: CGFloat = 0
     @State private var progress: CGFloat = 0
     
     var body: some View {
-        AdaptiveLayout { size, isLandScape in
+        GeometryReader { geo in
+            let size = geo.size
             let sizeBarWidth: CGFloat = 250
-            let layout = isLandScape ? AnyLayout(HStackLayout(spacing: 0)) : AnyLayout(ZStackLayout(alignment: .leading))
-
-            layout {
+         
+             ZStack(alignment: .leading){
                 SideBarView().frame(width: sizeBarWidth)
-                    .offset(x: isLandScape ? 0 : offset - sizeBarWidth)
+                    .offset(x:   offset - sizeBarWidth)
                 
                 TabView(selection: $tabSelect) {
                     ForEach(Tab.allCases, id: \.self) { tab in
@@ -48,17 +69,15 @@ struct AdaptiveUI: View {
                 }.tabBarAppearance()
                 .accentColor(.white)
                 .overlay {
-                    if !isLandScape {
-                        Rectangle()
+                         Rectangle()
                             .fill(.black.opacity(0.25))
                             .ignoresSafeArea()
                             .opacity(progress)
-                    }
-                }
-                .offset(x: isLandScape ? 0 : offset)
+                 }
+                .offset(x: offset)
             }
             .gesture(dragGesture(sizeBarWidth))
-        }
+            }
     }
     
     private func dragGesture(_ sizeBarWidth: CGFloat) -> some Gesture {
@@ -134,44 +153,12 @@ struct SideBarView: View {
             .contentShape(Rectangle())
         }
     }
+    
 }
 
-enum SideBarAction: String, CaseIterable {
-    case profile = "Profile"
-    case premium = "Premium"
-    case bookmark = "Bookmark"
-    case job = "Job"
-    case listTodo = "List To Do"
-    case spaces = "Spaces"
-    case makeMoney = "Make Money"
-    
-    var symbolImage: String {
-        switch self {
-        case .profile: return "person.crop.circle"
-        case .premium: return "star.circle"
-        case .bookmark: return "bookmark"
-        case .job: return "briefcase"
-        case .listTodo: return "checklist"
-        case .spaces: return "square.grid.3x3"
-        case .makeMoney: return "dollarsign.circle"
-        }
-    }
-}
 
 #Preview {
-    AdaptiveUI()
-}
-
-struct AdaptiveLayout<Content: View>: View {
-    @ViewBuilder var content: (CGSize, Bool) -> Content
-    
-    var body: some View {
-        GeometryReader { geometry in
-            let size = geometry.size
-            let isLandScape = size.width > size.height
-            content(size, isLandScape)
-        }
-    }
+    SlideMenuView()
 }
 struct TabBarModifier: ViewModifier {
     func body(content: Content) -> some View {
@@ -201,3 +188,24 @@ extension View {
         self.modifier(TabBarModifier())
     }
 }
+//struct AdaptiveLayout<Content: View>: View {
+//    @ViewBuilder var content: (CGSize, Bool) -> Content
+//    
+//    var body: some View {
+//        GeometryReader { geometry in
+//            let size = geometry.size
+//            let isLandScape = size.width > size.height
+//            content(size, isLandScape)
+//        }
+//    }
+//}
+
+
+
+
+
+
+
+
+
+

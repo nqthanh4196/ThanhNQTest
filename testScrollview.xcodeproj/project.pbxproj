@@ -18,6 +18,7 @@
 		2C28F9032BC3923400DEA5B4 /* VideoShoppingCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C28F9012BC3923400DEA5B4 /* VideoShoppingCollectionViewCell.xib */; };
 		2C28F9062BC3A2D400DEA5B4 /* ProductVideoShoppingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C28F9042BC3A2D400DEA5B4 /* ProductVideoShoppingCollectionViewCell.swift */; };
 		2C28F9072BC3A2D400DEA5B4 /* ProductVideoShoppingCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C28F9052BC3A2D400DEA5B4 /* ProductVideoShoppingCollectionViewCell.xib */; };
+		2C5115DF2C92A74D000D2BEB /* SlideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5115DE2C92A74D000D2BEB /* SlideMenuView.swift */; };
 		2C5A5BDF2B888BD600DC9BB5 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5A5BDD2B888BD600DC9BB5 /* TableViewCell.swift */; };
 		2C5A5BE02B888BD600DC9BB5 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C5A5BDE2B888BD600DC9BB5 /* TableViewCell.xib */; };
 		2C5D61D12BBD40C80035E628 /* CollectionViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5D61D02BBD40C80035E628 /* CollectionViewViewController.swift */; };
@@ -25,6 +26,7 @@
 		2C5D61D52BBD42440035E628 /* ViewControllerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5D61D42BBD42440035E628 /* ViewControllerHelper.swift */; };
 		2C5D61D82BBD426D0035E628 /* VideoDiscoveryLoadingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5D61D62BBD426D0035E628 /* VideoDiscoveryLoadingCollectionViewCell.swift */; };
 		2C5D61D92BBD426D0035E628 /* VideoDiscoveryLoadingCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C5D61D72BBD426D0035E628 /* VideoDiscoveryLoadingCollectionViewCell.xib */; };
+		2C8123F02CAD279400F6AF18 /* Network Layer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8123EF2CAD279400F6AF18 /* Network Layer.swift */; };
 		2CA262FA2BBEB1CE00A271E2 /* VideoFaqCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CA262F82BBEB1CD00A271E2 /* VideoFaqCollectionViewCell.xib */; };
 		2CA262FB2BBEB1CE00A271E2 /* VideoFaqCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA262F92BBEB1CE00A271E2 /* VideoFaqCollectionViewCell.swift */; };
 		2CB0193A2B906EA700E0A12F /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB019392B906EA700E0A12F /* ViewController2.swift */; };
@@ -51,6 +53,7 @@
 		2C28F9012BC3923400DEA5B4 /* VideoShoppingCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoShoppingCollectionViewCell.xib; sourceTree = "<group>"; };
 		2C28F9042BC3A2D400DEA5B4 /* ProductVideoShoppingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductVideoShoppingCollectionViewCell.swift; sourceTree = "<group>"; };
 		2C28F9052BC3A2D400DEA5B4 /* ProductVideoShoppingCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductVideoShoppingCollectionViewCell.xib; sourceTree = "<group>"; };
+		2C5115DE2C92A74D000D2BEB /* SlideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideMenuView.swift; sourceTree = "<group>"; };
 		2C5A5BDD2B888BD600DC9BB5 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		2C5A5BDE2B888BD600DC9BB5 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 		2C5D61D02BBD40C80035E628 /* CollectionViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +61,7 @@
 		2C5D61D42BBD42440035E628 /* ViewControllerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerHelper.swift; sourceTree = "<group>"; };
 		2C5D61D62BBD426D0035E628 /* VideoDiscoveryLoadingCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoDiscoveryLoadingCollectionViewCell.swift; sourceTree = "<group>"; };
 		2C5D61D72BBD426D0035E628 /* VideoDiscoveryLoadingCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoDiscoveryLoadingCollectionViewCell.xib; sourceTree = "<group>"; };
+		2C8123EF2CAD279400F6AF18 /* Network Layer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Network Layer.swift"; sourceTree = "<group>"; };
 		2CA262F82BBEB1CD00A271E2 /* VideoFaqCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoFaqCollectionViewCell.xib; sourceTree = "<group>"; };
 		2CA262F92BBEB1CE00A271E2 /* VideoFaqCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoFaqCollectionViewCell.swift; sourceTree = "<group>"; };
 		2CB019392B906EA700E0A12F /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
@@ -88,6 +92,7 @@
 		2CD028BC2B8707750043E0D5 = {
 			isa = PBXGroup;
 			children = (
+				2C5115DE2C92A74D000D2BEB /* SlideMenuView.swift */,
 				2CD028C72B8707750043E0D5 /* testScrollview */,
 				2CD028C62B8707750043E0D5 /* Products */,
 			);
@@ -135,6 +140,7 @@
 				2C28F9042BC3A2D400DEA5B4 /* ProductVideoShoppingCollectionViewCell.swift */,
 				2C28F9052BC3A2D400DEA5B4 /* ProductVideoShoppingCollectionViewCell.xib */,
 				2CF8EBDB2C918AF000DCFBF1 /* AdaptiveUI.swift */,
+				2C8123EF2CAD279400F6AF18 /* Network Layer.swift */,
 			);
 			path = testScrollview;
 			sourceTree = "<group>";
@@ -220,6 +226,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CCFC1352BBE60E000C4CA10 /* VideoCollectionViewCell.swift in Sources */,
+				2C5115DF2C92A74D000D2BEB /* SlideMenuView.swift in Sources */,
 				2CF8EBDC2C918AF000DCFBF1 /* AdaptiveUI.swift in Sources */,
 				2C232D702BB563A10070BEAE /* RatingSuccessTableViewCell.swift in Sources */,
 				2CB0193A2B906EA700E0A12F /* ViewController2.swift in Sources */,
@@ -227,6 +234,7 @@
 				2C5A5BDF2B888BD600DC9BB5 /* TableViewCell.swift in Sources */,
 				2C232D692BB54A9F0070BEAE /* RatingViewController.swift in Sources */,
 				2C28F9062BC3A2D400DEA5B4 /* ProductVideoShoppingCollectionViewCell.swift in Sources */,
+				2C8123F02CAD279400F6AF18 /* Network Layer.swift in Sources */,
 				2C28F9022BC3923400DEA5B4 /* VideoShoppingCollectionViewCell.swift in Sources */,
 				2CA262FB2BBEB1CE00A271E2 /* VideoFaqCollectionViewCell.swift in Sources */,
 				2CD028C92B8707750043E0D5 /* AppDelegate.swift in Sources */,
